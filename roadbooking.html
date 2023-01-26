@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>book plane</title>
+  <meta name="viewport" content="with=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		form{
+			width: 50%;
+			height: 50%;
+			display: #2E2E2E;
+			background-color: green;
+			align-content: center;
+			position: absolute;
+			margin-left: 100px;
+			left: 0;
+			right: 0;
+			top: 100;
+
+		}
+		body{
+			background:url(images/med.jpg);
+		}
+	</style>
+</head>
+<body>
+	<form class="needs-validation" novalidate>
+    <center>
+        <h3>EAC TRAVELS</h3>
+    </center>
+
+	<div class="form-row">
+    <div class="col-md-6 mb-2">
+      <label for="validationCustom01">Travelling From:</label>
+      <input type="text" class="form-control" id="validationCustom01" value="" placeholder="city or airport" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="validationCustom02">Travelling To:</label>
+      <input type="text" class="form-control" id="validationCustom02" value="" placeholder="city or airport" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+</div>
+
+    <div class="form-row">
+    <div class="col-md-3 mb-5">
+      <label for="validationCustom01">Departing</label>
+      <input type="date" class="form-control" id="validationCustom01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-3 mb-5">
+      <label for="validationCustom02">Returning</label>
+      <input type="date" class="form-control" id="validationCustom02" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-1 mb-5">
+      <label for="validationDefault03">Rooms</label>
+      <select class="custom-select" id="validationDefault04" required>
+        <option selected enabled value="">1</option>
+        <option selected enabled value="">2</option>
+        <option selected enabled value="">3</option>
+        <option selected enabled value="">4</option>
+        <option selected enabled value="">5</option>
+      </select>
+    
+    </div>
+    <div class="col-md-2 mb-5">
+      <label for="validationDefault04">Adults(18+)</label>
+      <select class="custom-select" id="validationDefault04" required>
+        <option selected enabled value="">1</option>
+        <option selected enabled value="">2</option>
+        <option selected enabled value="">3</option>
+        <option selected enabled value="">4</option>
+        <option selected enabled value="">5</option>
+      </select>
+    
+    </div>
+    <div class="col-md-2 mb-5">
+      <label for="validationDefault05">Children(0-17)</label>
+      <select class="custom-select" id="validationDefault04" required>
+      	<option selected enabled value="">0</option>
+        <option selected enabled value="">1</option>
+        <option selected enabled value="">2</option>
+        <option selected enabled value="">3</option>
+        <option selected enabled value="">4</option>
+        <option selected enabled value="">5</option>
+      </select>
+    </div>
+</div>
+<div>
+ <div class="custom-control custom-control-inline">
+  <input type="checkbox" class="" id="customCheck1">
+  <label class="custom-control-" for="customCheckboxInline1">Travel only</label>
+</div>
+<div class="custom-control custom-control-inline">
+  <input type="checkbox" name="customCheck1Inline2" class="" id="customCheck1">
+  <label class="custom-control-" for="customCheck1Inline2">Only use hotel during the stay</label>
+</div>
+</div>
+<center>
+  <a href="travellersform.html" class="btn btn-primary" role="button">Mainform</a>
+  <input type="button" name="submit" class="btn btn-outline-info" value="SUBMIT">
+            <input type="button" name="reset" class="btn btn-outline-secondary" value="RESET">
+</center>
+    
+		 
+	</form>
+
+</body>
+</html>
